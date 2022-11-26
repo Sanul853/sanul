@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="CTi*OKs7~)CAp6j|JY6C" x="0" y="0"><statement name="HANDLER"><block type="device_play_note" id="Ofp:`-~4S[^9vV5kka4_"><value name="note"><shadow type="device_note" id="Nl@aimqGgG=He0A`uRHO"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="3}8Qe+Nfi`8dFbKeJB|!"><field name="fraction">BeatFraction.Whole</field></shadow></value><next><block type="device_print_message" id="2.TzTr]Gw#Xre?GZKp6{"><value name="text"><shadow type="text" id="bvT.@{~+IJ;w%]uE$+qX"><field name="TEXT">Hello!</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="=EZ}wt-%i?SNO]OUP}WG" x="371" y="-16"><statement name="HANDLER"><block type="device_show_leds" id="C|fJo9wh.cO!++[UmM1t"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="lIh?((G,[ZErQ+UonMpi"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # # # # # 
+        # . . . . 
+        # . . . .
+        `</field><next><block type="device_show_leds" id="s%I^A.TOmxD9~g(7xb@m"><field name="LEDS">`
+        # # # # # 
+        # . . . . 
+        # # # # # 
+        # . . . . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="?(_XlIe4uCp=u6yJ62U{"><field name="LEDS">`
+        # . . . # 
+        # # . . # 
+        # . # . # 
+        # . . # # 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="R;zlw!vBo+j#lSqwkq4h" x="9" y="185"><statement name="HANDLER"><block type="playMelody" id="MTVD^|KHQ,w,Vsd:TlA?"><value name="melody"><shadow type="melody_editor" id="E?@JoVx^7#joyvkauqU;"><field name="melody">"G F G A - F E D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="9%,d!~sfD|1B`oaxq8GT"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></statement></block></xml>
